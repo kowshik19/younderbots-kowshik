@@ -141,7 +141,7 @@ class _HomePage2State extends State<HomePage2> {
               ),
               child: Center(
                 child: Text(
-                  "Buy one get",
+                  "Buy one get one Free",
                   style: TextStyle(fontSize: 25),
                 ),
               ),
