@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:younder/HomePages/home_page1.dart';
 import 'package:younder/HomePages/home_page2.dart';
+import 'package:younder/HomePages/home_page3.dart';
 
 class PageControl extends StatelessWidget {
   const PageControl({super.key});
@@ -65,6 +66,34 @@ class PageControl extends StatelessWidget {
               ),
               child: Text(
                 "HomePage2",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black,
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => HomePage3(),
+                  ),
+                );
+              },
+              style: ButtonStyle(
+                shape: WidgetStatePropertyAll(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5),
+                  ),
+                ),
+                backgroundColor: WidgetStatePropertyAll(Colors.orange),
+              ),
+              child: Text(
+                "HomePage3",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.black,
