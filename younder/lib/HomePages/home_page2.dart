@@ -223,22 +223,232 @@ class _HomePage2State extends State<HomePage2> {
           ),
           Positioned(
             top: 470,
-            child: Column(
-              children: [
-                SizedBox(
-                  height: 250,
-                  width: 200,
-                  child: Card(
-                    child: Column(
-                      children: [
-                        Image(
-                          image: AssetImage("assets/images/2.png"),
+            bottom: 10,
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                        height: 280,
+                        width: 200,
+                        child: Card(
+                          child: Column(
+                            children: [
+                              Image(
+                                image: AssetImage("assets/images/2.png"),
+                              ),
+                              Text(
+                                "Cappucino",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                "with Chocolate",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                ),
+                              ),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  Text(
+                                    "Rs 4.53",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  ElevatedButton(
+                                    onPressed: () {},
+                                    style: ButtonStyle(
+                                      shape: WidgetStatePropertyAll(
+                                        RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(5),
+                                        ),
+                                      ),
+                                      backgroundColor:
+                                          WidgetStatePropertyAll(Colors.orange),
+                                    ),
+                                    child: Icon(Icons.add),
+                                  )
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
-                      ],
-                    ),
+                      ),
+                      SizedBox(
+                        height: 280,
+                        width: 200,
+                        child: Card(
+                          child: Column(
+                            children: [
+                              Image(
+                                image: AssetImage("assets/images/2.png"),
+                              ),
+                              Text(
+                                "Cappucino",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                "with Chocolate",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                ),
+                              ),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  Text(
+                                    "Rs 4.53",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  ElevatedButton(
+                                    onPressed: () {},
+                                    style: ButtonStyle(
+                                      shape: WidgetStatePropertyAll(
+                                        RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(5),
+                                        ),
+                                      ),
+                                      backgroundColor:
+                                          WidgetStatePropertyAll(Colors.orange),
+                                    ),
+                                    child: Icon(Icons.add),
+                                  )
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
-                ),
-              ],
+                  Row(
+                    children: [
+                      SizedBox(
+                        height: 280,
+                        width: 200,
+                        child: Card(
+                          child: Column(
+                            children: [
+                              Image(
+                                image: AssetImage("assets/images/2.png"),
+                              ),
+                              Text(
+                                "Cappucino",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                "with Chocolate",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                ),
+                              ),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  Text(
+                                    "Rs 4.53",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  ElevatedButton(
+                                    onPressed: () {},
+                                    style: ButtonStyle(
+                                      shape: WidgetStatePropertyAll(
+                                        RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(5),
+                                        ),
+                                      ),
+                                      backgroundColor:
+                                          WidgetStatePropertyAll(Colors.orange),
+                                    ),
+                                    child: Icon(Icons.add),
+                                  )
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 280,
+                        width: 200,
+                        child: Card(
+                          child: Column(
+                            children: [
+                              Image(
+                                image: AssetImage("assets/images/2.png"),
+                              ),
+                              Text(
+                                "Cappucino",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                "with Chocolate",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                ),
+                              ),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  Text(
+                                    "Rs 4.53",
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  ElevatedButton(
+                                    onPressed: () {},
+                                    style: ButtonStyle(
+                                      shape: WidgetStatePropertyAll(
+                                        RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(5),
+                                        ),
+                                      ),
+                                      backgroundColor:
+                                          WidgetStatePropertyAll(Colors.orange),
+                                    ),
+                                    child: Icon(Icons.add),
+                                  )
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           )
         ],
